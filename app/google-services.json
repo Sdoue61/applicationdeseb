@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "43934386969",
+    "project_id": "applicationdeseb",
+    "storage_bucket": "applicationdeseb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43934386969:android:f0341c081200c3b5965388",
+        "android_client_info": {
+          "package_name": "com.example.applicationdeseb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43934386969-o30llmcd5d8u7pdoegkuvcmh8tnle5j2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOGF6pPyyvAvwgJSk0g4_RQoA0J4W4G1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43934386969-o30llmcd5d8u7pdoegkuvcmh8tnle5j2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

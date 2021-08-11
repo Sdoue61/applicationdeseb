@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">applicationdeseb</string>
+    <string name="welcome">Bienvenue sur mon appli</string>
+    <string name="userlogin">Adresse email</string>
+    <string name="pwdlogin">Mot de passe</string>
+    <string name="btlogin">LOGIN</string>
+    <string name="btinscription">S\'INSCRIRE</string>
+    <string name="bvninscription">INSCRIVEZ VOUS ICI</string>
+    <string name="emailinscription">Votre adresse email ici</string>
+    <string name="passowrdinscription">Votre mot de passe ici</string>
+    <string name="sinscrireici">SINSCRIRE</string>
+    <string name="revenir">REVENIR</string>
+</resources>
