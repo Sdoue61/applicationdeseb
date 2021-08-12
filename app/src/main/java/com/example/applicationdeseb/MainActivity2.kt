@@ -1,5 +1,6 @@
 package com.example.applicationdeseb
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -19,6 +20,12 @@ class MainActivity2 : AppCompatActivity() {
         val bt = findViewById<Button>(R.id.button)
         val user = findViewById<EditText>(R.id.textView2)
         val pwd = findViewById<EditText>(R.id.textView3)
+        val retourlogin = findViewById<Button>(R.id.loginback)
+
+        retourlogin.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
 
         bt.setOnClickListener {
             val email = user.text.toString()
@@ -30,7 +37,8 @@ class MainActivity2 : AppCompatActivity() {
                             baseContext, "Enregistrement Ok.",
                             Toast.LENGTH_SHORT
                         ).show()
-                    } else {
+                    }
+                    else {
                         Toast.makeText(
                             baseContext, "Erreur.",
                             Toast.LENGTH_SHORT
