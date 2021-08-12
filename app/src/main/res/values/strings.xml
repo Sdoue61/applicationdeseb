@@ -2,6 +2,7 @@
     <string name="app_name">applicationdeseb</string>
     <string name="votrenom">Votre Nom Ici</string>
     <string name="next">NEXT STEP</string>
+    <string name="page3test">Testons FIREBASE</string>
     <string name="welcome">Bienvenue sur mon appli</string>
     <string name="userlogin">Adresse email</string>
     <string name="pwdlogin">Mot de passe</string>
@@ -12,4 +13,9 @@
     <string name="passowrdinscription">Votre mot de passe ici</string>
     <string name="sinscrireici">SINSCRIRE</string>
     <string name="revenir">REVENIR</string>
+    <string name="erreur">false</string>
+    <string name="btactualiser">ACTUALISER</string>
+    <string name="btretourpage1">RETOUR</string>
+    <string name="btverifemail">VERIFIER EMAIL</string>
+    <string name="btdeconec">DECONNECTER</string>
 </resources>

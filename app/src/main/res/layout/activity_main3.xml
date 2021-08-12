@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/erreur"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/page3test"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/tvidentifiant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btverif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btverifemail" />
+
+    <Button
+        android:id="@+id/btactualiser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btactualiser" />
+
+    <Button
+        android:id="@+id/btretourpage1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btretourpage1" />
+
+    <Button
+        android:id="@+id/btdeconnecter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btdeconec" />
+</LinearLayout>

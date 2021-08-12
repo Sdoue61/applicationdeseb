@@ -38,7 +38,10 @@ class MainActivity : AppCompatActivity() {
                     if (task.isSuccessful) {
                         Toast.makeText(baseContext, "Authentification Reussie.",
                             Toast.LENGTH_SHORT).show()
-                    } else {
+                        val intentnext = Intent(this, MainActivity3::class.java)
+                        startActivity(intentnext)
+                    }
+                    else {
                         Toast.makeText(baseContext, "Erreur",
                             Toast.LENGTH_SHORT).show()
                     }
