@@ -22,6 +22,10 @@ class MainActivity2 : AppCompatActivity() {
         val pwd = findViewById<EditText>(R.id.textView3)
         val retourlogin = findViewById<Button>(R.id.loginback)
 
+        bt.alpha = 0f
+        bt.translationY = 50F
+        bt.animate().alpha(1f).translationYBy(-50F).duration = 1500
+
         retourlogin.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)

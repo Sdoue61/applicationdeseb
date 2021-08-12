@@ -27,17 +27,17 @@
 
     <EditText
         android:id="@+id/textView2"
-        android:hint="@string/emailinscription"
         android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:fontFamily="sans-serif-black"
         android:gravity="center|center_horizontal|center_vertical"
+        android:hint="@string/emailinscription"
         android:importantForAutofill="no"
         android:inputType="text|textEmailAddress"
         android:textAlignment="center"
         android:textSize="24sp"
-        />
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
 
     <Space
         android:layout_width="match_parent"
@@ -45,17 +45,17 @@
 
     <EditText
         android:id="@+id/textView3"
-        android:hint="@string/passowrdinscription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
+        android:hint="@string/passowrdinscription"
         android:importantForAutofill="no"
         android:inputType="number|text"
         android:textAlignment="center"
         android:textSize="24sp"
-        />
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
 
     <Space
         android:layout_width="match_parent"
@@ -63,7 +63,6 @@
 
     <Button
         android:id="@+id/button"
-        android:text="@string/btinscription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -75,10 +74,11 @@
         android:paddingTop="15dp"
         android:paddingEnd="25dp"
         android:paddingBottom="15dp"
+        android:text="@string/btinscription"
         android:textAllCaps="false"
         android:textColor="@color/black"
         android:textSize="24sp"
-        />
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
 
     <Space
         android:layout_width="match_parent"
