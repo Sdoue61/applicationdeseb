@@ -7,9 +7,12 @@
     android:orientation="vertical"
     tools:context=".start">
 
-  <Space
-      android:layout_width="match_parent"
-      android:layout_height="67dp" />
+  <pl.droidsonroids.gif.GifImageView
+      android:layout_width="390dp"
+      android:layout_height="300dp"
+      android:id="@+id/coolintro"
+      android:src="@drawable/welcome1"
+      />
 
   <EditText
       android:id="@+id/nom"
@@ -21,21 +24,21 @@
       android:inputType="textPersonName"
       android:textAlignment="center"
       android:textSize="50sp"
-      tools:ignore="TextContrastCheck" />
-
-  <Space
-      android:layout_width="match_parent"
-      android:layout_height="33dp" />
+      tools:ignore="TextContrastCheck"
+      />
 
   <Button
       android:id="@+id/btnext"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="@string/next" />
+      android:text="@string/next"
+      />
 
-  <Space
-      android:layout_width="match_parent"
-      android:layout_height="33dp" />
-
+  <pl.droidsonroids.gif.GifImageView
+      android:id="@+id/bvnintro"
+      android:layout_width="350dp"
+      android:layout_height="200dp"
+      android:layout_marginTop="-50dp"
+      android:src="@drawable/welcome" />
 
 </LinearLayout>
