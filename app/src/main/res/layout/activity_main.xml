@@ -65,6 +65,7 @@
 
     <Button
         android:id="@+id/bt_login"
+        android:text="@string/btlogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -76,7 +77,6 @@
         android:paddingTop="15dp"
         android:paddingEnd="25dp"
         android:paddingBottom="15dp"
-        android:text="@string/btlogin"
         android:textAllCaps="false"
         android:textColor="@color/black"
         android:textSize="24sp"
