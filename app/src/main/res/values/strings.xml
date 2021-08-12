@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">applicationdeseb</string>
+    <string name="votrenom">Votre Nom Ici</string>
+    <string name="next">NEXT STEP</string>
     <string name="welcome">Bienvenue sur mon appli</string>
     <string name="userlogin">Adresse email</string>
     <string name="pwdlogin">Mot de passe</string>
