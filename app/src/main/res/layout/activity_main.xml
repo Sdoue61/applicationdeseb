@@ -70,7 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="45dp"
         android:background="@drawable/rounded_rectangle"
         android:focusable="true"
         android:paddingStart="25dp"
@@ -85,6 +85,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/oubliepwd"
+        style="@android:style/Widget.Holo.Button.Borderless"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/motdepasseoublie" />
 
     <Space
         android:layout_width="match_parent"

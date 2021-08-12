@@ -1,8 +1,10 @@
 package com.example.applicationdeseb
 
+import android.content.ContentValues.TAG
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -46,6 +48,18 @@ class MainActivity : AppCompatActivity() {
                             Toast.LENGTH_SHORT).show()
                     }
                 }
+        }
+
+        val resetpwd = findViewById<Button>(R.id.oubliepwd)
+        resetpwd.setOnClickListener{
+                val user2 = Firebase.auth.currentUser!!
+                user2.delete()
+                    .addOnCompleteListener { task ->
+                        if (task.isSuccessful) {
+                            Toast.makeText(baseContext, "Account Bye Bye",
+                                Toast.LENGTH_SHORT).show()
+                        }
+                    }
         }
 
     }

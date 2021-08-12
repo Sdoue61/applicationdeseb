@@ -18,4 +18,5 @@
     <string name="btretourpage1">RETOUR</string>
     <string name="btverifemail">VERIFIER EMAIL</string>
     <string name="btdeconec">DECONNECTER</string>
+    <string name="motdepasseoublie">Effacer mon compte (login avant)</string>
 </resources>
