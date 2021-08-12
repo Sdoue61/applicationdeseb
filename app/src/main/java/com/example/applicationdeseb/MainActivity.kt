@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -22,6 +23,9 @@ class MainActivity : AppCompatActivity() {
         val user = findViewById<EditText>(R.id.user)
         val pwd = findViewById<EditText>(R.id.pwd)
         val inscription = findViewById<Button>(R.id.btinscription)
+        val nomuser = intent.getStringExtra("User_Name")
+        val username = findViewById<TextView>(R.id.nomuser)
+        username.text = nomuser
 
         bt.alpha = 0f
         bt.translationY = 50F

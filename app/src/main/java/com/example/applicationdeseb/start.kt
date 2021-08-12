@@ -18,7 +18,8 @@ class start : AppCompatActivity() {
             next.setOnClickListener {
                 if (nameuser.text.isNotEmpty()) {
                 val intent = Intent(this, MainActivity::class.java)
-                startActivity(intent)
+                    intent.putExtra("User_Name",nameuser.text.toString())
+                    startActivity(intent)
             }
             else {
                 Toast.makeText(this, "Entrer votre nom", Toast.LENGTH_SHORT).show()
