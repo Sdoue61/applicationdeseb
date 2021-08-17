@@ -14,6 +14,13 @@
     <string name="sinscrireici">SINSCRIRE</string>
     <string name="revenir">REVENIR</string>
     <string name="erreur">false</string>
+    <string name="letsplay">JOUER</string>
+    <string name="cpttv">Ceci est Votre Score</string>
+    <string name="loading">Chargement en cours...</string>
+    <string name="btrep1">Q1</string>
+    <string name="btrep2">Q2</string>
+    <string name="btrep3">Q3</string>
+    <string name="btrep4">Q4</string>
     <string name="btactualiser">ACTUALISER</string>
     <string name="btretourpage1">RETOUR</string>
     <string name="btverifemail">VERIFIER EMAIL</string>

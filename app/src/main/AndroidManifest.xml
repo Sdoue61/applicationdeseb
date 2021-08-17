@@ -11,6 +11,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Applicationdeseb">
         <activity
+            android:name=".QuizActivity"
+            android:exported="true" />
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
             android:name=".MainActivity3"
             android:exported="true" />
         <activity
@@ -25,7 +37,7 @@
         <activity android:name=".MainActivity2" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>

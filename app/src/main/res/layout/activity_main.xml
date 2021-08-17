@@ -32,10 +32,6 @@
         android:textSize="43sp"
         />
 
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="38dp" />
-
     <EditText
         android:id="@+id/user"
         android:layout_width="370dp"
@@ -50,10 +46,6 @@
         android:textSize="24sp"
         tools:ignore="TextContrastCheck,TextContrastCheck" />
 
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="33dp" />
-
     <EditText
         android:id="@+id/pwd"
         android:layout_width="wrap_content"
@@ -67,10 +59,6 @@
         android:textAlignment="center"
         android:textSize="24sp"
         tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="40dp" />
 
     <Button
         android:id="@+id/bt_login"
@@ -102,10 +90,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/motdepasseoublie" />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="11dp" />
 
     <Button
         android:id="@+id/btinscription"

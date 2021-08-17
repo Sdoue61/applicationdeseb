@@ -1,12 +1,12 @@
 package com.example.applicationdeseb
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -26,6 +26,17 @@ class MainActivity3 : AppCompatActivity() {
         val btdeconnecter = findViewById<Button>(R.id.btdeconnecter)
         val btverifiermail = findViewById<Button>(R.id.btverif)
         val btrefresh = findViewById<Button>(R.id.btactualiser)
+        val nextpage = findViewById<Button>(R.id.JOUER)
+
+        val nomuser2 = intent.getStringExtra("User_Name")
+        val username2 = findViewById<TextView>(R.id.nomuser2)
+        username2.text = nomuser2
+
+
+       nextpage.setOnClickListener{
+            val intent = Intent(this, QuizActivity::class.java)
+            startActivity(intent)
+        }
 
         btretourconnecter.setOnClickListener {
             val retourintent = Intent(this,MainActivity::class.java)
