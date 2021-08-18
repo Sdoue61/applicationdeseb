@@ -18,6 +18,9 @@
     <string name="cpttv">Ceci est Votre Score</string>
     <string name="btprof">PROFILE</string>
     <string name="loading">Chargement en cours...</string>
+    <string name="usernameupdate">Entrez votre pseudo</string>
+    <string name="changeremail">Nouveau email</string>
+    <string name="mettreajour">Mettre a jour</string>
     <string name="btrep1">Q1</string>
     <string name="btrep2">Q2</string>
     <string name="btrep3">Q3</string>
