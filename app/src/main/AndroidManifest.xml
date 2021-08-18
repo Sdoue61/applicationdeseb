@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Applicationdeseb">
         <activity
+            android:name=".MainActivity4"
+            android:exported="true" />
+        <activity
             android:name=".QuizActivity"
             android:exported="true" />
 

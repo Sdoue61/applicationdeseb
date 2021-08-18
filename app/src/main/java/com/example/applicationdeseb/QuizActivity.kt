@@ -32,7 +32,7 @@ class QuizActivity : AppCompatActivity() {
     )
 
     class Score(
-        //val username: String,
+        val username: String,
         //val userId: String, // Identifiant unique de l'user connecté
         val score: Int //Le compteur de bonne réponse va être stocker dans cette variable
     )
@@ -56,7 +56,8 @@ class QuizActivity : AppCompatActivity() {
         else {
             val currentUser = auth.currentUser
             val userId = currentUser!!.uid
-            val newScore = Score(cpt)
+            val username = currentUser.displayName.toString()
+            val newScore = Score(username, cpt)
 
 
             val refScore = database.child("Scores").child(userId)
@@ -71,12 +72,8 @@ class QuizActivity : AppCompatActivity() {
                 }
             }
 
-            val nomuserfinal = intent.getStringExtra("User_Name")
-            val username = findViewById<TextView>(R.id.nomuserfinal)
-            username.text = nomuserfinal
-
             val builder = AlertDialog.Builder(this)
-            builder.setTitle("Bravo $nomuserfinal Votre Score est de $cpt")
+            builder.setTitle("Bravo $username Votre Score est de $cpt")
             builder.setCancelable(false) // Oblige le clique sur un bouton
             builder.setPositiveButton("Oui") { _, _ ->
                 qencours = 0

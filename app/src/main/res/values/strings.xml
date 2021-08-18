@@ -16,6 +16,7 @@
     <string name="erreur">false</string>
     <string name="letsplay">JOUER</string>
     <string name="cpttv">Ceci est Votre Score</string>
+    <string name="btprof">PROFILE</string>
     <string name="loading">Chargement en cours...</string>
     <string name="btrep1">Q1</string>
     <string name="btrep2">Q2</string>

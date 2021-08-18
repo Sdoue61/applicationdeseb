@@ -27,10 +27,12 @@ class MainActivity3 : AppCompatActivity() {
         val btverifiermail = findViewById<Button>(R.id.btverif)
         val btrefresh = findViewById<Button>(R.id.btactualiser)
         val nextpage = findViewById<Button>(R.id.JOUER)
+        val profile = findViewById<Button>(R.id.btprofile)
 
-        val nomuser2 = intent.getStringExtra("User_Name")
-        val username2 = findViewById<TextView>(R.id.nomuser2)
-        username2.text = nomuser2
+        profile.setOnClickListener{
+            val intent = Intent(this, MainActivity4::class.java)
+            startActivity(intent)
+        }
 
 
        nextpage.setOnClickListener{
